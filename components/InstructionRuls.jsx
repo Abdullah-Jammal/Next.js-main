@@ -132,7 +132,7 @@ return (
                 <p className="newParagraphTwo" style={{width : '400px'}}>يرجى أتباع الخطوات التالية</p>
             </div>
             <div className="left">
-            <video width="400" height="600" controls preload="none" style={{borderRadius : '20px'}}>
+            <video width="400" height="600" controls preload="true" style={{borderRadius : '20px'}}>
                 <source src="/Videos/1.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
@@ -140,7 +140,7 @@ return (
         </div>
         <div className="one" id="instructionOne">
             <div className="left">
-                <video width="400" height="600" controls preload="none"  style={{borderRadius : '20px'}}>
+                <video width="400" height="600" controls preload="true" style={{borderRadius : '20px'}}>
                     <source src="/Videos/2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -173,7 +173,7 @@ return (
                 </div>
             </div>
             <div className="left">
-            <video width="400" height="600" controls preload="none" style={{borderRadius : '20px'}}>
+            <video width="400" height="600" controls preload="true" style={{borderRadius : '20px'}}>
                 <source src="/Videos/3.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
@@ -181,7 +181,7 @@ return (
         </div>
         <div className="one" id="instructionThree">
             <div className="left">
-            <video width="400" height="600" controls preload="none" style={{borderRadius : '20px'}}>
+            <video width="400" height="600" controls preload="true" style={{borderRadius : '20px'}}>
                 <source src="/Videos/4.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
@@ -206,7 +206,7 @@ return (
                 <h4>يرجى طباعة الاستمارة بحذر واتباع الخطوات بحذافيرها وحفظ نسخه من الاستماره في حال حدوث خطأ</h4>
             </div>
             <div className="left">
-                <video width="400" height="600" controls preload="none"  style={{borderRadius : '20px'}}>
+                <video width="400" height="600" controls preload="true"  style={{borderRadius : '20px'}}>
                 <source src="/Videos/5.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
                 </video>

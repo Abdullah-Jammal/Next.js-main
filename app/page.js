@@ -6,7 +6,7 @@ import HomeFAQ from "@/components/HomeFAQ";
 import Header from "@/components/Header";
 import HomeLanding from "@/components/HomeLanding";
 import HomeMsg from "@/components/HomeMsg";
-
+import TopSection from "@/components/TopSection";
 export default function Home() {
   return (
     <div>

@@ -2,6 +2,7 @@ import InstructionLanding from "@/components/InstructionLanding"
 import Header from "@/components/Header"
 import InstructionRuls from "@/components/InstructionRuls"
 import Footer from "@/components/Footer"
+import TopSection from "@/components/TopSection"
 
 const Instruction = () => {
   return (

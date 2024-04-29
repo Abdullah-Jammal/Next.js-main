@@ -94,7 +94,7 @@ header {
   height: 75px;
   position: absolute;
   width: 100%;
-  top: 20px;
+  top: 60px;
   z-index: 9;
 }
 .nav-list {
@@ -118,6 +118,38 @@ header {
   height: 60px;
   opacity: 0;
   transform: translateX(-20px);
+}
+@media (max-width : 470px) {
+  .e-school-logo {
+    height: 40px;
+    width: 85px;
+  }
+  .e-school-logo img {
+    height: 40px;
+    width: 85px;
+  }
+  .minstry-logo {
+    height: 45px;
+    width: 45px;
+  }
+  .minstry-logo img {
+    height: 45px;
+    width: 45px;
+  }
+  header {
+    height: 60px;
+    top: 80px;
+  }
+  .top-section-container {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .top-section-container .top-one .first-section .phone-icon,
+  .top-section-container .top-one .first-section .newWatchVideo {
+    width: 65px;
+    height: 26px;
+    font-size: 12px;
+  }
 }
 nav ul li {
   opacity: 0;
@@ -188,14 +220,14 @@ nav ul li {
 
 /* Start Main Landing Page */
 .landing-container {
-  height: 100dvh;
+  height: 90dvh;
   position: relative;
 }
 .specialHrefTag {
   transform: translateX(-50%);
   left : 50%;
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
 }
 .landing-span {
   position: absolute;
@@ -239,7 +271,7 @@ nav ul li {
   scale: 1.08;
 }
 .landing-info {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .landing-info .main-title {
   font-size: 48px;
@@ -267,7 +299,6 @@ nav ul li {
 .main-para {
   max-width: 620px;
   color: #e8f5f5;
-  font-weight: bold;
   line-height: 1.6;
   letter-spacing: 1px;
   margin-bottom: 32px;
@@ -276,7 +307,7 @@ nav ul li {
   padding-left: 20px;
 }
 .landing-image {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 @media (max-width: 1090px) {
   .landing-image {
@@ -291,12 +322,13 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 0;
   }
   .landing-span {
     bottom: 10px;
   }
   .specialHrefTag {
-    bottom: 40px;
+    bottom: -10px;
   }
   .watchViedo {
     margin-bottom: 40px;
@@ -326,6 +358,9 @@ nav ul li {
   .main-para {
     font-size: 12px;
   }
+}
+@media (max-width : 470px) {
+  
 }
 /* End Main Landing Page */
 
@@ -459,7 +494,7 @@ nav ul li {
   }
 }
 .goal-right .one .secPara {
-  font-size: 20px;
+  font-size: 18px;
   width: 530px;
 }
 @media (max-width : 1220px) {
@@ -527,7 +562,7 @@ nav ul li {
 }
 .msg-title {
   color: var(--main-gray);
-  font-size: 32px;
+  font-size: 40px;
 }
 .msg-title::before {
   background-color: var(--main-gray);
@@ -540,7 +575,7 @@ nav ul li {
   align-items: center;
 }
 .msg-container p {
-  font-size: 26px;
+  font-size: 21px;
   margin-top: 14px;
   text-align: center;
   letter-spacing: 1px;
@@ -600,7 +635,7 @@ nav ul li {
   color: var(--text-color);
   font-size: 19px;
   margin-top: 22px;
-  font-weight: bold;
+  /* font-weight: bold; */
   max-width: 250px;
 }
 /* End Education Content */
@@ -765,7 +800,7 @@ footer .copyRight {
 .faq .faq-box .one p,
 .faq .faq-box .two p {
   color: var(--text-color);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   width: 1150px;
   margin-top: 16px;
@@ -1271,3 +1306,60 @@ footer .copyRight {
   }
 }
 /* End FAQ */
+
+/* Start Top Section */
+.top-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+.top-section .top-two {
+  display: flex;
+  gap : 20px;
+}
+.top-section .top-two a {
+  color: var(--main-gray);
+  display: flex;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.top-section .top-two a:hover {
+  color: var(--sky-blue);
+}
+.top-section .top-one {
+  display: flex;
+  gap: 20px;
+}
+.first-section .newWatchVideo {
+  background-color: var(--secendary-bg);
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms;
+  cursor: pointer;
+}
+.first-section .newWatchVideo:hover {
+  opacity: .5;
+}
+.first-section .phone-icon {
+  background-color: var(--secendary-bg);
+  width: 110px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-section .phone-icon span {
+  padding-left: 15px;
+}
+/* End Top Section */
