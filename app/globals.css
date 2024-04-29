@@ -237,8 +237,11 @@ nav ul li {
   border-radius: 12px;
 }
 @media (max-width : 400px) {
+  .specialHrefTag {
+    bottom: 30px;
+  }
   .landing-span {
-    bottom: -15px !important;
+    bottom: 15px;
   }
 }
 .landing-span::before {
@@ -936,7 +939,7 @@ footer .copyRight {
   display: flex;
   gap: 50px;
 }
-@media (max-width : 450px) {
+@media (max-width : 570px) {
   .rightRight .secInstructionDiv {
     flex-direction: column;
     gap : 0;
@@ -975,6 +978,12 @@ footer .copyRight {
   cursor: pointer;
   transition: 300ms;
 }
+@media (max-width : 420px) {
+  .affiliation-container a {
+    padding: 6px;
+    font-size: 18px;
+  }
+}
 @media (max-width : 585px) {
   .affiliation-container-two a {
     text-align: center;
@@ -986,7 +995,7 @@ footer .copyRight {
   background-color: #00c3ff;
   color: var(--text-color);
 }
-@media (max-width : 1045px) {
+@media (max-width : 1113px) {
   .affiliation-container .leftLeft .newInfo {
     display: none;
   }
@@ -1115,7 +1124,7 @@ footer .copyRight {
   text-align: center;
   color: var(--main-hover-bg);
 }
-@media (max-width : 850px) {
+@media (max-width : 903px) {
   .instruction-container .one {
     flex-direction: column;
     justify-content: center;
@@ -1198,6 +1207,11 @@ footer .copyRight {
   font-weight: bold;
   text-align: center;
   margin-bottom: 12px;
+}
+@media (max-width : 450px) {
+  .newParagraphTwo {
+    width: 300px !important;
+  }
 }
 /* End Instruction Video */
 
