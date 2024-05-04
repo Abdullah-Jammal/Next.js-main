@@ -718,7 +718,7 @@ footer .copyRight {
     height: auto;
   }
   footer {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -726,7 +726,6 @@ footer .copyRight {
   }
   footer .copyRight {
     font-size: 16px;
-    /* margin-top: 20px; */
   }
 }
 .social-media .special {
@@ -897,7 +896,7 @@ footer .copyRight {
     font-size: 16px;
   }
   .faq .faq-box {
-    height: 115vh;
+    height: auto;
   }
 }
 @media (max-width : 570px) {
