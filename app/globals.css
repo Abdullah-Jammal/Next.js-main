@@ -703,14 +703,9 @@ footer .footer-container .four img:hover {
 }
 footer .copyRight {
   color: var(--text-color);
-  max-width: 500px;
-  border-radius: 12px;
-  font-size: 20px;
   text-align: center;
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
+  margin-top: 70px;
+  font-size: 18px;
 }
 @media (max-width: 960px) {
   footer .footer-container {
@@ -720,6 +715,7 @@ footer .copyRight {
     align-items: center;
     gap: 60px;
     margin-top: 20px;
+    height: auto;
   }
   footer {
     height: 100vh;
@@ -730,6 +726,7 @@ footer .copyRight {
   }
   footer .copyRight {
     font-size: 16px;
+    /* margin-top: 20px; */
   }
 }
 .social-media .special {

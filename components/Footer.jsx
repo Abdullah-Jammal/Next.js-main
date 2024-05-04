@@ -38,13 +38,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="copyRight">
-            © Copyright <span style={{fontWeight : 'bold'}}>Eschool</span>. All Rights Reserved 2024
+            <div className="copyRight">
+                © Copyright <span style={{fontWeight : 'bold'}}>Eschool</span>. All Rights Reserved 2024
+            </div>
         </div>
     </footer>
     </>
 )
 }
-
 export default Footer
